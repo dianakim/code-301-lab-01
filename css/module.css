@@ -7,11 +7,15 @@ header, article, section, footer {
 
 .full-width {
   width: 100%;
+  max-width: 767px;
+  min-width: 480px;
 }
 
 .half-width {
   width: 50%;
   float: left;
+  max-width: 383.5px;
+  min-width: 240px;
 }
 
 aside {
