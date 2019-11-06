@@ -1,0 +1,34 @@
+header, article, section, footer {
+  text-align: center;
+  background-color: lightgrey;
+  border: 0.25px solid black;
+  box-sizing: border-box;
+}
+
+.full-width {
+  width: 100%;
+  max-width: 767px;
+  min-width: 480px;
+}
+
+.half-width {
+  width: 50%;
+  float: left;
+  max-width: 383.5px;
+  min-width: 240px;
+}
+
+aside {
+  height: 150px;
+  line-height: 150px;
+}
+
+.sub-header {
+  height: 125px;
+  line-height: 125px;
+}
+
+.sub-footer {
+  height: 250px;
+  line-height: 250px;
+}
