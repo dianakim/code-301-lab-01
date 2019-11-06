@@ -11,30 +11,16 @@ header, aside, article, footer {
 .half-width {
   width: 50%;
   float: left;
-  height: 23.7%;
-  line-height: 250px;
 }
 
 aside {
-  height: 14.22%;
   line-height: 150px;
 }
 
 .sub-header {
-  height: 11.84%;
   line-height: 125px;
 }
 
 .sub-footer {
-  height: 23.7%;
   line-height: 250px;
 }
-
-.left {
-  float: right;
-}
-
-.right {
-  float: right;
-}
-
