@@ -1,11 +1,18 @@
 
 header {
-  height: 75px;
+  width: 100%;
+  height: 7.11%;
   line-height: 75px;
+  margin: auto;
 }
 
+/* section {
+  overflow: hidden;
+} */
+
 footer {
-  height: 80px;
+  height: 14.22%;
   line-height: 80px;
+  clear: both;
 }
 
