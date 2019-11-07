@@ -24,3 +24,29 @@ aside {
 .sub-footer {
   line-height: 250px;
 }
+
+@media (min-width: 768px) {
+  aside {
+    max-width: 20.83%;
+    line-height: 600px;
+    display: inline-block;
+  }
+
+  .sub-header {
+    width: 50%;
+    line-height: 200px;
+  }
+  
+  .sub-footer {
+    width: 50%;
+    line-height: 250px;
+  }
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: right;
+  }
+}
