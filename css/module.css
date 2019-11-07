@@ -11,30 +11,42 @@ header, aside, article, footer {
 .half-width {
   width: 50%;
   float: left;
-  height: 23.7%;
-  line-height: 250px;
 }
 
 aside {
-  height: 14.22%;
   line-height: 150px;
 }
 
 .sub-header {
-  height: 11.84%;
   line-height: 125px;
 }
 
 .sub-footer {
-  height: 23.7%;
   line-height: 250px;
 }
 
-.left {
-  float: right;
-}
+@media (min-width: 768px) {
+  aside {
+    max-width: 20.83%;
+    line-height: 600px;
+    display: inline-block;
+  }
 
-.right {
-  float: right;
-}
+  .sub-header {
+    width: 50%;
+    line-height: 200px;
+  }
+  
+  .sub-footer {
+    width: 50%;
+    line-height: 250px;
+  }
 
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: right;
+  }
+}
